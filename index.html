@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="profileApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Nick Palmucci</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="./animate.css" media="screen" title="no title" charset="utf-8">
+    <script src="./scripts.js" charset="utf-8"></script>
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./styles.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-controller="profileController">
+  <header>
+  <a href="https://docs.google.com/document/d/1fu07teNxoiVcGIGNFNT9lrXKGjL0KdrRpbz54JAAydg/edit?usp=sharing"><span>resume</span></a>
+  <span ng-click="showContact()">contact</span>
+  </header>
+
+
+    <h1 class='animated fadeIn' ng-click="show()">Nick Palmucci</h1>
+
+    <div class="apps1 animated fadeIn" ng-show="showApps">
+      <div class="appCard">
+        <h2>News Desk</h2>
+        <img src="./pics/News.png" alt="" />
+        <h4>
+          A Rails Application that uses Nokogiri, D3.js and unique parsing algorithims to gather Newspaper and magazine headlines from  across the world and create data visulaizations based on the frequency of keywords.
+        </h4>
+      </div>
+      <div class="appCard">
+        <h2>Rain or Shine</h2>
+        <img src="./pics/Rain.png" alt="" />
+        <h4>
+          A MEAN stack application that aggregates data from 12 separate APIs and renders to the client a seven day weather forecast with music sports and theater recommendations for each day based on the weather. Data is dynamically searched and rendered based on the current data and location and can be filtered based on the user’s preferences.  The application also uses JSON webtoken authentication and each user can save slected events and view them on their profile page.
+        </h4>
+      </div>
+      <div class="appCard">
+        <h2>Nicky's Eats</h2>
+        <img src="./pics/Eats.png" alt="" />
+        <h4>
+          Simulated Restaurant management system built with Rails and Postrgres SQL. The database is built with multiple tables with one to one and one to many relationships allowing a user to manage orders across many groups of customers. Different users have access to different data and user with administrative privileges can edit the menu and access all user data.
+        </h4>
+      </div>
+    </div>
+
+    <div class="text animated fadeIn" ng-show="textVar">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <div class="appButton animated fadeIn" ng-show="textVar" ng-click="show()">
+      Web Applications
+    </div>
+    <div class="techButton animated fadeIn" ng-show="textVar" ng-click="showTech()">
+      Technologies
+    </div>
+
+
+    <div class="contact" ng-show="contactVar">
+    <h2>Email: nicolas.eli.palmucci@gmail.com</h2>
+    <a href="https://www.linkedin.com/in/nicolas-palmucci-4b44ba107"><h2>LinkedIn</h2></a>
+    <a href="https://github.com/Mucciano"><h2>Github</h2></a>
+    </div>
+
+
+
+
+
+
+
+<footer class="weblogos" ng-show="techVar">
+<img class="tech animated bounceInDown " src="./pics/angularpic.jpeg" alt="" />
+<img class="tech animated bounceInDown " src="./pics/ruby.jpeg" alt="" />
+<img class="tech animated bounceInDown " src="./pics/rails.jpeg" alt="" />
+<img class="tech animated bounceInDown " src="./pics/nodejs.png" alt="" />
+<img class="techdb animated bounceInDown " src="./pics/postgres.png" alt="" />
+<img class="techdb animated bounceInDown " src="./pics/mongodb.png" alt="" />
+</footer>
+
+
+  </body>
+</html>

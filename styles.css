@@ -1,0 +1,136 @@
+header{
+  border-bottom: solid black;
+  text-align: right;
+}
+
+span{
+  font-family: 'Exo 2', sans-serif;
+  margin-right: 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: solid white;
+  border-right: solid white;
+  border-left: solid white;
+}
+
+span:hover{
+border-top: solid black;
+border-right: solid black;
+border-left: solid black;
+background-color: black;
+color: white;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+}
+
+
+img{
+  height: 50px;
+  width:  50px;
+}
+
+.weblogos{
+
+}
+
+.text{
+  height: 40%;
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.appButton{
+  height: 20px;
+  width: 150px;
+  border: solid black;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  margin-left: 41.5%;
+
+}
+
+.appButton:hover{
+  background-color: black;
+  color: white;
+
+}
+.techButton{
+  height: 20px;
+  width: 150px;
+  border: solid black;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  margin-left: 41.5%;
+  margin-top: 1em;
+
+}
+
+.techButton:hover{
+  background-color: black;
+  color: white;
+
+}
+
+.tech{
+  height: 75px;
+  width:  75px;
+  padding: 1em;
+}
+.techdb{
+  height: 75px;
+  width:  100px;
+  padding: 1em;
+}
+
+.apps1{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+h4  {
+  font-size: 1.2em;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+
+img{
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+.appCard{
+  border-radius: 5px;
+  width: 80%;
+  margin-left: 10%;
+  -webkit-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+  -moz-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+  box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+}
