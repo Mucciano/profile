@@ -9,6 +9,7 @@ angular
       $scope.techVar    = false
       $scope.techButtonVar    = true
       $scope.textVar    = true
+      $scope.skyVar    = true
       $scope.contactVar = false
 
 
@@ -16,21 +17,26 @@ angular
       $scope.show = function(){
         $scope.showApps = !$scope.showApps
         $scope.textVar  = !$scope.textVar
+        $scope.skyVar   = !$scope.skyVar
+        $scope.techButtonVar = !$scope.techButtonVar
       }
 
       $scope.showHome = function(){
-        $scope.showApps   = false
-        $scope.techVar    = false
+        $scope.showApps         = false
+        $scope.techVar          = false
         $scope.techButtonVar    = true
-        $scope.textVar    = true
-        $scope.contactVar = false
+        $scope.textVar          = true
+        $scope.skyVar           = true
+        $scope.contactVar       = false
       }
 
 
-
       $scope.showTech = function(){
-        $scope.techVar  = !$scope.techVar
+        $scope.techVar        = !$scope.techVar
         $scope.techButtonVar  = !$scope.techButtonVar
+
+
+
       }
 
       $scope.showContact = function(){

@@ -33,6 +33,17 @@ img{
 }
 
 .weblogos{
+  padding-top: 1.5em;
+}
+
+
+
+.sky{
+  opacity: 0.2;
+  height: 50%;
+  width: 70%;
+  border-radius: 50px;
+  z-index: -1;
 
 }
 
@@ -42,6 +53,7 @@ img{
   margin-left: 30%;
   margin-bottom: 5%;
   font-family: 'Exo 2', sans-serif;
+  text-align: center;
 
 }
 
@@ -122,9 +134,17 @@ img{
 }
 
 footer{
+  position: absolute;
   display: inline-flex;
   margin-left: 15%;
+  margin-bottom: 0px;
+  z-index: 1;
 }
+
+.footer{
+  margin-bottom: 0px;
+}
+
 
 .appCard{
   border-radius: 5px;
