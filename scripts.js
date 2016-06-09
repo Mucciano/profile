@@ -7,6 +7,7 @@ angular
 
       $scope.showApps   = false
       $scope.techVar    = false
+      $scope.techButtonVar    = true
       $scope.textVar    = true
       $scope.contactVar = false
 
@@ -19,6 +20,7 @@ angular
 
       $scope.showTech = function(){
         $scope.techVar  = !$scope.techVar
+        $scope.techButtonVar  = !$scope.techButtonVar
       }
 
       $scope.showContact = function(){
