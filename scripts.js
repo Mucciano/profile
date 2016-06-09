@@ -18,6 +18,16 @@ angular
         $scope.textVar  = !$scope.textVar
       }
 
+      $scope.showHome = function(){
+        $scope.showApps   = false
+        $scope.techVar    = false
+        $scope.techButtonVar    = true
+        $scope.textVar    = true
+        $scope.contactVar = false
+      }
+
+
+
       $scope.showTech = function(){
         $scope.techVar  = !$scope.techVar
         $scope.techButtonVar  = !$scope.techButtonVar

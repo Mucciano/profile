@@ -12,6 +12,7 @@
   </head>
   <body ng-controller="profileController">
   <header>
+  <span class="homespan" ng-click="showHome()">home</span>
   <a href="https://docs.google.com/document/d/1fu07teNxoiVcGIGNFNT9lrXKGjL0KdrRpbz54JAAydg/edit?usp=sharing"><span>resume</span></a>
   <span ng-click="showContact()">contact</span>
   </header>
@@ -40,9 +41,6 @@
         <h4>
           Simulated Restaurant management system built with Rails and Postrgres SQL. The database is built with multiple tables with one to one and one to many relationships allowing a user to manage orders across many groups of customers. Different users have access to different data and user with administrative privileges can edit the menu and access all user data.
         </h4>
-      </div>
-      <div class="appButton animated fadeIn" ng-click="show()">
-        Home
       </div>
     </div>
 
@@ -74,10 +72,11 @@
 
 
 <footer class="weblogos" ng-show="techVar">
-<img class="tech animated bounceInDown " src="./pics/angularpic.jpeg" alt="" />
+
 <img class="tech animated bounceInDown " src="./pics/ruby.jpeg" alt="" />
 <img class="tech animated bounceInDown " src="./pics/rails.jpeg" alt="" />
 <img class="tech animated bounceInDown " src="./pics/nodejs.png" alt="" />
+<img class="tech animated bounceInDown " src="./pics/angularpic.jpeg" alt="" />
 <img class="techdb animated bounceInDown " src="./pics/postgres.png" alt="" />
 <img class="techdb animated bounceInDown " src="./pics/mongodb.png" alt="" />
 </footer>
