@@ -3,6 +3,34 @@ header{
   text-align: right;
 }
 
+
+.homeText{
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  margin-left: 30%;
+  border: solid black;
+  border-radius: 50%;
+  margin-top: 1.7em;
+  height: 450px;
+  width: 450px;
+}
+
+.testpic{
+  position: absolute;
+  margin-left: 30%;
+  border: solid black;
+  border-radius: 50%;
+  margin-top: 1.7em;
+  height: 450px;
+  width: 450px;
+}
+
+.name{
+  font-size: 3em;
+  margin-top: 20%;
+}
+
 span{
   font-family: 'Exo 2', sans-serif;
   margin-right: 2em;
@@ -22,6 +50,7 @@ color: white;
 }
 
 h1 {
+  margin-top: 7%;
   font-family: 'Exo 2', sans-serif;
   text-align: center;
 }
@@ -34,6 +63,7 @@ img{
 
 .weblogos{
   padding-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 
@@ -63,7 +93,8 @@ img{
   border: solid black;
   text-align: center;
   font-family: 'Exo 2', sans-serif;
-  margin-left: 42.8%;
+  margin-left: 7%;
+  margin-top: 4em;
 
 }
 
@@ -78,7 +109,7 @@ img{
   border: solid black;
   text-align: center;
   font-family: 'Exo 2', sans-serif;
-  margin-left: 42.8%;
+  margin-left: 7%;
   margin-top: 1em;
 
 }
@@ -94,6 +125,7 @@ img{
   width:  75px;
   padding: 1em;
 }
+
 .techdb{
   height: 75px;
   width:  100px;
@@ -108,6 +140,7 @@ a{
   text-decoration: none;
   color: black;
 }
+
 a:visited{
   text-decoration: none;
   color: black;
@@ -143,14 +176,59 @@ footer{
 
 .footer{
   margin-bottom: 0px;
+  margin-top: 430px;
+}
+
+.contact{
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 26%;
+  padding: 1.2em;
+  margin-top: 10%;
+  overflow: scroll;
+  -webkit-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+  -moz-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+  box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
 }
 
 
 .appCard{
   border-radius: 5px;
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  margin-top: 4%;
+  overflow: scroll;
   -webkit-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
   -moz-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
   box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+}
+
+#circle{
+position: absolute;
+height: 500px;
+width: 500px;
+margin-left: 33%;
+z-index: -1;
+
+}
+
+
+/*.sidebar{
+position: absolute;
+width: 350px;
+height: 100%;
+opacity: .5;
+z-index: -20;
+}*/
+
+
+path{
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 3s linear forwards;
+}
+
+@keyframes dash{
+  to{
+    stroke-dashoffset: 0;
+  }
 }

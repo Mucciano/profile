@@ -5,12 +5,12 @@ angular
     .controller('profileController', ['$scope',
     function($scope){
 
-      $scope.showApps   = false
-      $scope.techVar    = false
-      $scope.techButtonVar    = true
-      $scope.textVar    = true
-      $scope.skyVar    = true
-      $scope.contactVar = false
+      $scope.showApps        = false
+      $scope.techVar         = false
+      $scope.techButtonVar   = true
+      $scope.textVar         = true
+      $scope.skyVar          = true
+      $scope.contactVar      = false
 
 
 
@@ -40,42 +40,23 @@ angular
       }
 
       $scope.showContact = function(){
+        $scope.showHome()
         $scope.contactVar = !$scope.contactVar
         $scope.textVar  = !$scope.textVar
 
       }
 
+      $scope.hidePattern = function(){
+        $('.testpic').css('opacity', '0')
+        $('.homeText').css('opacity', '1')
+      }
 
+      $scope.showPattern = function(){
+        $('.testpic').css('opacity', '1')
+        $('.homeText').css('opacity', '0')
+
+      }
 
 
 
     }])
-
-
-
-
-
-
-
-
-
-
-
-//
-// $(function(){
-//
-//
-// // var text = $('.text')
-// // var appCard =$('.appCard')
-// //
-// // $('.appButton').click(function(){
-// //     text.addClass('animated fadeOut')
-// //         .css('display', 'none')
-// //     setTimeout(function(){appCard.addClass('animated fadeIn')
-// //                                  .css('display', 'block') }, 1000)
-//
-// })
-//
-//
-//
-// })
