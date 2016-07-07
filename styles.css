@@ -197,9 +197,9 @@ footer{
   width: 100%;
   margin-top: 4%;
   overflow: scroll;
-  -webkit-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
-  -moz-box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
-  box-shadow: 0px 0px 72px 5px rgba(0,0,0,0.81);
+  -webkit-box-shadow: 0px 0px 52px 5px rgba(0,0,0,0.81);
+  -moz-box-shadow: 0px 0px 52px 5px rgba(0,0,0,0.81);
+  box-shadow: 0px 0px 52px 5px rgba(0,0,0,0.81);
 }
 
 #circle{
